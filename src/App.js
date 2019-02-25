@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import './App.css';
+import {Route, Link } from "react-router-dom";
+import Header from './components/header/header'
+import './App.scss';
 
-class App extends Component {
+export default class App extends Component {
 	render() {
 		return (
 			<div className="App">
+				<Header />
 				kek
 			</div>
 		);
 	}
 }
-
-export default App;
